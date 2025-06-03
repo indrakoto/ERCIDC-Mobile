@@ -1,4 +1,4 @@
-package com.example.erci_dc_2025
+package com.idckoto.ercidcmobile
 
 import io.flutter.embedding.android.FlutterActivity
 

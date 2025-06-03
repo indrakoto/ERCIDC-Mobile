@@ -33,6 +33,23 @@ dependencies:
 
   http: ^0.13.5
   google_fonts: ^3.0.1
+  # State Management
+  provider: ^6.0.5
+
+  # Google Maps
+  google_maps_flutter: ^2.2.5
+
+  # Image Cropper
+  image_cropper: ^3.0.1
+
+  # File Picker
+  file_picker: ^5.2.5
+
+  # Upload file dengan progress
+  dio: ^5.0.0
+
+  # Image Picker
+  image_picker: ^0.8.7+4
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -48,7 +65,12 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
 
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/erci_logo.png"
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
