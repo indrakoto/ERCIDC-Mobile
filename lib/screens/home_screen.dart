@@ -52,10 +52,10 @@ class HomeScreen extends StatelessWidget {
           children: items.map((item) {
             return Material(
               color: item.color,
-              borderRadius: BorderRadius.circular(16),
+              borderRadius: BorderRadius.circular(25),
               child: InkWell(
                 onTap: () => handleMenuTap(context, item.title),
-                borderRadius: BorderRadius.circular(16),
+                //borderRadius: BorderRadius.circular(16),
                 splashColor: Colors.black12,
                 highlightColor: Colors.white.withOpacity(0.1),
                 child: Padding(

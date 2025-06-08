@@ -9,8 +9,9 @@ class MenuCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Card(
+    return Material(
       color: item.color,
+      borderRadius: BorderRadius.circular(25),
       child: InkWell(
         onTap: onTap,
         child: Container(

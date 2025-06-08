@@ -47,8 +47,8 @@ class HomeScreenOld extends StatelessWidget {
           childAspectRatio: 1.2,
           crossAxisSpacing: 12,
           mainAxisSpacing: 12,
-          children: items
-              .map((item) => MenuCard(
+
+          children: items.map((item) => MenuCard(
             item: item,
             onTap: () => handleMenuTap(context, item.title),
           ))
